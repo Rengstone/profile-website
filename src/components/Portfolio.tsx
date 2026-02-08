@@ -26,24 +26,24 @@ const Portfolio: React.FC = () => {
       imageUrl: ringuaImg,
       docUrl: ringuaDoc
     },
-    {
-      id: 2,
-      title: 'Task Management App',
-      description: 'A productivity application for managing tasks and projects.',
-      technologies: ['React', 'Redux', 'Express', 'PostgreSQL']
-    },
-    {
-      id: 3,
-      title: 'Weather Dashboard',
-      description: 'Real-time weather information with forecasts and location services.',
-      technologies: ['JavaScript', 'CSS', 'API Integration']
-    },
-    {
-      id: 4,
-      title: 'Portfolio Website',
-      description: 'A responsive portfolio website showcasing projects and skills.',
-      technologies: ['React', 'TypeScript', 'Vite', 'CSS Modules']
-    }
+    // {
+    //   id: 2,
+    //   title: 'Task Management App',
+    //   description: 'A productivity application for managing tasks and projects.',
+    //   technologies: ['React', 'Redux', 'Express', 'PostgreSQL']
+    // },
+    // {
+    //   id: 3,
+    //   title: 'Weather Dashboard',
+    //   description: 'Real-time weather information with forecasts and location services.',
+    //   technologies: ['JavaScript', 'CSS', 'API Integration']
+    // },
+    // {
+    //   id: 4,
+    //   title: 'Portfolio Website',
+    //   description: 'A responsive portfolio website showcasing projects and skills.',
+    //   technologies: ['React', 'TypeScript', 'Vite', 'CSS Modules']
+    // }
   ];
 
   const containerVariants = {

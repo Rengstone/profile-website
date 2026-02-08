@@ -203,19 +203,19 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.7rem 1.4rem;
-  background: linear-gradient(135deg, var(--accent-color), #6d8cff);
+  background: linear-gradient(135deg, #48ff4893, #50bd50);
   color: #fff;
   border-radius: 999px;
   font-weight: 600;
   font-size: 0.95rem;
   text-decoration: none;
-  box-shadow: 0 8px 20px rgba(74, 108, 247, 0.3);
+  box-shadow: 0 8px 20px rgba(103, 247, 74, 0.3);
   transition: all 0.3s ease;
 }
 
 .downloadBtn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(74, 108, 247, 0.4);
+  box-shadow: 0 12px 30px rgba(94, 247, 74, 0.4);
 }
 
 .downloadBtn:active {
