@@ -1,0 +1,37 @@
+# John Doe - Curriculum Vitae
+
+## Personal Information
+- Name: John Doe
+- Email: john.doe@example.com
+- Phone: +1 (123) 456-7890
+- Location: New York, NY
+
+## Professional Summary
+Passionate Frontend Developer with 5+ years of experience creating beautiful and functional web experiences. Specialized in React, TypeScript, and modern web technologies.
+
+## Skills
+- JavaScript/TypeScript
+- React & Redux
+- HTML/CSS/SASS
+- Responsive Design
+- RESTful APIs
+- Git & Version Control
+
+## Experience
+### Senior Frontend Developer | Tech Company (2020-Present)
+- Developed and maintained multiple React applications
+- Implemented responsive designs for various screen sizes
+- Collaborated with UX/UI designers to create intuitive interfaces
+
+### Frontend Developer | Web Solutions Inc. (2018-2020)
+- Built interactive web applications using React and JavaScript
+- Optimized web applications for performance and accessibility
+- Participated in code reviews and mentoring junior developers
+
+## Education
+Bachelor of Science in Computer Science | University of Technology (2014-2018)
+
+## Projects
+- E-commerce Website with shopping cart functionality
+- Task Management Application with drag-and-drop interface
+- Weather Dashboard with real-time data visualization

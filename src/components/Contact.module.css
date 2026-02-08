@@ -1,0 +1,243 @@
+.contact {
+  padding: 5rem 0;
+  background-color: var(--bg-primary);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 80%, rgba(74, 108, 247, 0.06), transparent 30%),
+    radial-gradient(circle at 80% 20%, rgba(109, 140, 255, 0.06), transparent 30%);
+  z-index: 0;
+}
+
+.contact .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+/* =====================
+   TITLE
+===================== */
+.sectionTitle {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  color: var(--text-primary);
+  position: relative;
+}
+
+.sectionTitle::after {
+  content: '';
+  display: block;
+  margin: 1rem auto 0;
+  width: 80px;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--accent-color), #6d8cff);
+}
+
+/* =====================
+   LAYOUT
+===================== */
+.contactContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+}
+
+/* =====================
+   CONTACT INFO CARD
+===================== */
+.contactInfo {
+  background: linear-gradient(180deg,
+      var(--bg-secondary),
+      rgba(255, 255, 255, 0.02));
+  padding: 2.8rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(74, 108, 247, 0.15);
+}
+
+.contactInfo h3 {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+}
+
+.contactInfo p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2.2rem;
+}
+
+/* =====================
+   PRIMARY ACTIONS
+===================== */
+.primaryActions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.emailButton,
+.whatsappButton {
+  flex: 1;
+  text-align: center;
+  padding: 0.9rem 1.2rem;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.emailButton {
+  background: linear-gradient(135deg, var(--accent-color), #6d8cff);
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(74, 108, 247, 0.4);
+}
+
+.emailButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(74, 108, 247, 0.5);
+}
+
+.whatsappButton {
+  background: linear-gradient(135deg, #25d366, #1ebe57);
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.35);
+}
+
+.whatsappButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(37, 211, 102, 0.5);
+}
+
+/* =====================
+   CONTACT DETAILS
+===================== */
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.detailItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+.detailItem a {
+  color: var(--accent-color);
+  font-weight: 600;
+  text-decoration: none;
+  outline: none;
+}
+
+.detailItem a:hover {
+  text-decoration: underline;
+}
+
+/* =====================
+   FORM
+===================== */
+.contactForm {
+  background: linear-gradient(180deg,
+      var(--bg-secondary),
+      rgba(255, 255, 255, 0.02));
+  padding: 2.8rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(74, 108, 247, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.formGroup label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.25);
+}
+
+/* =====================
+   SUBMIT
+===================== */
+.submitButton {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(135deg, var(--accent-color), #6d8cff);
+  box-shadow: 0 10px 25px rgba(74, 108, 247, 0.4);
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 768px) {
+  .contact {
+    padding: 3.5rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 2.3rem;
+  }
+
+  .contactContent {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .contactInfo,
+  .contactForm {
+    padding: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .primaryActions {
+    flex-direction: column;
+  }
+}
