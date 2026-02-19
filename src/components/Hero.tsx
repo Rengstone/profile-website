@@ -139,7 +139,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             whileHover={{ scale: 1.05, rotateZ: 5 }}
           >
-            👤
+            <img src="/foto-linkedin.jfif" alt="Foto Saya" />
           </motion.div>
           {/* Floating elements for fun animation */}
           {/* <motion.div
